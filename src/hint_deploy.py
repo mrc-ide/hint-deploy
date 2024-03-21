@@ -322,6 +322,7 @@ def hint_configure(container, cfg):
         "email_mode": cfg.hint_email_mode,
         "email_password": cfg.hint_email_password,
         "upload_dir": cfg.volumes["uploads"]["path"],
+        "results_dir": cfg.volumes["results"]["path"],
         "hintr_url": "http://hintr:8888",
         "db_url": "jdbc:postgresql://db/hint",
         "db_password": "changeme",
